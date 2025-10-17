@@ -1,0 +1,9 @@
+/* tailwind import here */
+@import "tailwindcss";
+
+/* local styling */
+
+.sections{
+  width: 94%;
+  margin: auto;
+}
