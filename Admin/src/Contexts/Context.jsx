@@ -5,7 +5,8 @@ import axios from 'axios';
 import {toast} from "react-hot-toast";
 
 import { blogCategories } from "../assets/assets";
-import { showSequentialToast } from "../../../Frontend/src/helpers/toaster";
+import { showSequentialToast } from "../helpers/toaster";
+
 
 export const AppContext = createContext();
 export const ContextProvider = ({children})=>{
